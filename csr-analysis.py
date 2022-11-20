@@ -8,7 +8,7 @@ file = r'E:\code\csr\gbk\000001_2008年度社会责任报告.txt'
 dict_file = r'E:\code\csr\中文金融情感词典_姜富伟等(2020).xlsx'
 
 
-# 过滤中文字符
+# 过滤中文符号
 def remove_a(s):
     if (s != "\n") & (s != "”") & (s != "“") & (s != " ") & (s != "、") & (s != "，"):
         return s
